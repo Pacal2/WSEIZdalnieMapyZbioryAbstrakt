@@ -43,7 +43,8 @@ public class Person {
     }
 
     public void showData(){
-        System.out.println("Name: " + this.name + " " + this.surname + ", age: " + this.age);
+        System.out.println("Imię: " + this.name + " " + this.surname);
+        System.out.println("Wiek: " + this.age);
     }
 
 

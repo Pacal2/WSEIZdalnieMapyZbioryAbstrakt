@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f89f0e6-d919-46b9-b8b7-c6823e6e7ac3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/MapAssignment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Armor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/SetAssignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Weapon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WSEIZdalnieMapyZbioryAbstrakt/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WSEIZdalnieMapyZbioryAbstrakt/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WSEIZdalnieMapyZbioryAbstrakt/com/company/MapAssignment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WSEIZdalnieMapyZbioryAbstrakt/com/company/MapAssignment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WSEIZdalnieMapyZbioryAbstrakt/com/company/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WSEIZdalnieMapyZbioryAbstrakt/com/company/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MapAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MapAssignment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../RPGCharacterCreator" />
   </component>
   <component name="RunManager">
@@ -67,6 +74,8 @@
       <option name="presentableId" value="Default" />
       <updated>1589732040970</updated>
       <workItem from="1589732044348" duration="7390000" />
+      <workItem from="1589749797058" duration="607000" />
+      <workItem from="1590081761106" duration="5711000" />
     </task>
     <servers />
   </component>
@@ -74,30 +83,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1245" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1589737743202">
+    <state x="1245" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1590086407080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1245" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1589737743202" />
+    <state x="1245" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590086407080" />
     <state x="1222" y="330" key="FileChooserDialogImpl" timestamp="1589733608700">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1222" y="330" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589733608700" />
-    <state width="914" height="279" key="GridCell.Tab.0.bottom" timestamp="1589739857648">
+    <state width="914" height="279" key="GridCell.Tab.0.bottom" timestamp="1590087868980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589739857648" />
-    <state width="914" height="279" key="GridCell.Tab.0.center" timestamp="1589739857648">
+    <state width="914" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590087868979" />
+    <state width="914" height="279" key="GridCell.Tab.0.center" timestamp="1590087868979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589739857648" />
-    <state width="914" height="279" key="GridCell.Tab.0.left" timestamp="1589739857648">
+    <state width="914" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590087868979" />
+    <state width="914" height="279" key="GridCell.Tab.0.left" timestamp="1590087868979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589739857648" />
-    <state width="914" height="279" key="GridCell.Tab.0.right" timestamp="1589739857648">
+    <state width="914" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590087868979" />
+    <state width="914" height="279" key="GridCell.Tab.0.right" timestamp="1590087868979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589739857648" />
+    <state width="914" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590087868979" />
+    <state x="230" y="377" key="com.intellij.ide.util.TipDialog" timestamp="1590081931340">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="230" y="377" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590081931340" />
+    <state x="780" y="148" key="extract.method.dialog" timestamp="1590087780933">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="780" y="148" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590087780933" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/WSEIZdalnieMapyZbioryAbstrakt$Main.ic" NAME="Main Coverage Results" MODIFIED="1589739428357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -25,7 +25,7 @@ public class MapAssignment {
         return subjectsAndMarks;
     }
 
-    public void showHashMapContent (LinkedHashMap<String, Float> hashMap) {
+    public void printHashMapContent(LinkedHashMap<String, Float> hashMap) {
         for (Map.Entry<String, Float> entry : hashMap.entrySet()) {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
@@ -38,7 +38,7 @@ public class MapAssignment {
         return personMap;
     }
 
-    public void showPersonMapContent(LinkedHashMap<String, Person> personMap) {
+    public void printPersonMapContent(LinkedHashMap<String, Person> personMap) {
         for (Map.Entry<String, Person> entry : personMap.entrySet()) {
             System.out.println("PESEL:  " + entry.getKey());
             entry.getValue().showData();
